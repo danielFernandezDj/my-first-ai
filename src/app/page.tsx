@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import AIRquest from "@/components/ai-request";
+import AIRquestImage from "@/components/ai-image-req";
 
 export default function Home() {
   return (
@@ -49,6 +53,9 @@ export default function Home() {
           >
             Read our docs
           </a>
+
+          <AIRquest />
+          <AIRquestImage />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
