@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import AIRquest from "@/components/ai-request";
-import AIRquestImage from "@/components/ai-image-req";
+import AIRquest from "@/components/layout/ai-request";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export default function Home() {
   return (
